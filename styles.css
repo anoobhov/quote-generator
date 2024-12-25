@@ -12,6 +12,7 @@ body{
 }
 .card{
     background-color: white;
+    transition: background-color 0.5s ease;
     padding: 3rem;
     border-radius: 6px;
     box-shadow: 0px 0px 2px 2px rgb(171, 170, 170);

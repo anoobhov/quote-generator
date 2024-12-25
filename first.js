@@ -48,6 +48,7 @@ let index = Math.floor(Math.random()*quotes.length)
 element.textContent = quotes[index]
 
 let colorIndex = Math.floor(Math.random() * colors.length);
-document.body.style.backgroundColor = colors[colorIndex];
+let card = document.querySelector('.card')
+card.style.backgroundColor = colors[index]
 }
 setInterval(generator,5000)
