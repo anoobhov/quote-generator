@@ -20,3 +20,9 @@ const quotes = [
     "Your time is limited, so don’t waste it living someone else’s life. — Steve Jobs",
     "Everything you’ve ever wanted is on the other side of fear. — George Addair"
 ];
+function generator(){
+const element = document.getElementById("qwer");
+let index = Math.floor(Math.random()*quotes.length)
+element.textContent = quotes[index]
+}
+setInterval(generator,5000)

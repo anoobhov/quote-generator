@@ -16,3 +16,12 @@ body{
     border-radius: 6px;
     box-shadow: 0px 0px 2px 2px rgb(171, 170, 170);
 }
+
+.box{
+    margin-top: 2rem;
+    border-left: 4px solid #007bff;
+    background-color: rgb(220, 220, 220);
+    padding: 20px;
+    font-style: italic;
+    border-radius: 4px;
+}
