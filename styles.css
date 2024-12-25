@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    padding: 3rem;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px 2px rgb(171, 170, 170);
+}
