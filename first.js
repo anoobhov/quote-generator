@@ -20,9 +20,34 @@ const quotes = [
     "Your time is limited, so don’t waste it living someone else’s life. — Steve Jobs",
     "Everything you’ve ever wanted is on the other side of fear. — George Addair"
 ];
+const colors = [
+    "#FF5733", // Bright Orange
+    "#33FF57", // Lime Green
+    "#5733FF", // Purple
+    "#F0FF33", // Bright Yellow
+    "#33FFF0", // Cyan
+    "#FF33A6", // Pink
+    "#33A6FF", // Sky Blue
+    "#A633FF", // Violet
+    "#FF8C33", // Coral
+    "#33FF8C", // Mint Green
+    "#8C33FF", // Deep Purple
+    "#FF3333", // Red
+    "#33FF33", // Green
+    "#3333FF", // Blue
+    "#FFBD33", // Gold
+    "#33FFBD", // Aqua
+    "#BD33FF", // Magenta
+    "#FF333A", // Crimson
+    "#33AFFF", // Light Blue
+    "#AFF033"  // Light Green
+  ]
 function generator(){
 const element = document.getElementById("qwer");
 let index = Math.floor(Math.random()*quotes.length)
 element.textContent = quotes[index]
+
+let colorIndex = Math.floor(Math.random() * colors.length);
+document.body.style.backgroundColor = colors[colorIndex];
 }
 setInterval(generator,5000)
